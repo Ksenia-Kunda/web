@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" >
+    <parameter name="LoginName"  value="Ksenia001@tut.by"/>
+    <parameter name="Password" value="AutomationTest1"/>
+    <test name="TestTestNG" >
+        <classes>
+            <class name="tests.LoginTest" />
+        </classes>
+    </test>
+</suite>

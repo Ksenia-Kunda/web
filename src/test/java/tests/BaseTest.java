@@ -1,6 +1,8 @@
 package tests;
 
+import driver.ChromeDriverHandler;
 import driver.DriverFactory;
+import driver.FirefoxDriverHandler;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import pages.StartPage;
@@ -25,6 +27,8 @@ public class BaseTest {
     @AfterMethod
     public void tearDown() {
         DriverFactory.closeDriver();
+        ChromeDriverHandler.close();
+        FirefoxDriverHandler.close();
         driver = null;
     }
 }

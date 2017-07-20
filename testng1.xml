@@ -3,7 +3,7 @@
 <suite name="Suite1" >
     <parameter name="LoginName"  value="Ksenia001@tut.by"/>
     <parameter name="Password" value="AutomationTest1"/>
-    <test name="TestTestNG" >
+    <test name="LoginTest" >
         <classes>
             <class name="tests.LoginTest" />
         </classes>

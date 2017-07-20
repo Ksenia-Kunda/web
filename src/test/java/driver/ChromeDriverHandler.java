@@ -32,6 +32,10 @@ public class ChromeDriverHandler {
         return handler;
     }
 
+    public static void close() {
+        handler = null;
+    }
+
     public WebDriver getDriver() {
         return driver;
     }

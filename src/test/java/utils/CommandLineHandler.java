@@ -36,6 +36,10 @@ public class CommandLineHandler {
         return handler;
     }
 
+    public static void close() {
+        handler = null;
+    }
+
     private void setOptions() {
         options.addOption(BROWSER, true, "Browser has been chosen");
         options.addOption(URL, true, "URL has been chosen");

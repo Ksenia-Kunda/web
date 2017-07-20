@@ -1,9 +1,6 @@
 package driver;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import utils.CommandLineHandler;
 
 /**
  * Created by Kseniya_Kunda on 7/19/2017.

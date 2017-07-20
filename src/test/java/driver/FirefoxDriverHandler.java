@@ -32,6 +32,10 @@ public class FirefoxDriverHandler {
         return handler;
     }
 
+    public static void close() {
+        handler = null;
+    }
+
     public WebDriver getDriver() {
         return driver;
     }

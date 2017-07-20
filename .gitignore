@@ -4,4 +4,5 @@
 *.ear
 .idea/
 target/
+test-output/
 *.iml
